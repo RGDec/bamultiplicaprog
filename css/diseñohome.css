@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(42, 112, 120);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    font-family: 'Montserrat';font-size: 15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center; 
+}
+
+#home {
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    float: left;  
+    display: block;
+}
+
+#menu2 {
+    color:bisque;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.lista {
+    text-align: center;
+    margin: 0 10px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.link {
+    color:white;
+    padding: 8 12;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: rgba(110, 111, 112, 0.733);
+    transition: 0,5s;   
+}
+
+body {
+    background-color: rgb(45, 130, 139);
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+
+ #ktcentro {
+ margin-right: 20%;
+ display: block;
+ width: 270px;
+ height: 330px;
+ float:right;
+ }
+ 
+article p {
+
+    margin-bottom: 6%;
+    padding: 0px 10%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-bottom:84px;
+    margin-top: 7%;
+
+}
+#instagram {
+    width: 40px;
+    height: 40px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+#instagram:hover {
+    margin-bottom: 12%;
+    transition: 1s;   
+}
+ footer {
+    margin-bottom: 0%;
+    background-color: rgb(24, 66, 71);
+    width: 100%;
+    padding: 0px 10%;
+ }
+
+ footer p {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Montserrat';font-size: 13px;
+ }
